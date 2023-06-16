@@ -1,0 +1,50 @@
+<!--
+    Autor: Gabriel Keven
+    E-maiL: gabriel-keven@outlook.com
+-->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Quiz</title>
+</head>
+<body>
+    <header id="header">
+        <h1 id="header-title">Quiz - Conhecimentos Gerais</h1>
+        <nav id="header-navigation">
+            <ul id="header-menu">
+                <li class="menu-item"><button class="button" id="button-start" type="button">Iniciar</button></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="content" class="hide">
+        <div class="question">
+            <span class="number-question">0</span><p class="text-question"></p>
+        </div>
+        <div id="answers">
+            <ul class="options">
+                <li class="option"></li>
+                <li class="option"></li>
+                <li class="option"></li>
+                <li class="option"></li>
+            </ul>
+        </div>
+        <div id="next-question">
+            <button class="button" id="button-next-question" type="button">Próxima pergunta</button>
+        </div>
+    </main>
+    <div class="message hide">
+        <p class="text-message">Isto é uma mensagem</p>
+    </div>
+    <div class="final-result hide">
+       <h1 id="final-result-title">Fim do Quiz</h1>
+       <p id="final-result-message"></p>
+       <p id="final-result-score"></p>
+       <button class="button" id="button-restart" type="button">Reiniciar</button>
+    </div>
+</body>
+<script src="js/script.js"></script>
+</html>
